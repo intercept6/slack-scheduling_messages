@@ -1,0 +1,32 @@
+{
+  "name": "slack-scheduling_messages",
+  "engines": {"node": "12.8.0"},
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kmd2kmd/slack-scheduling_messages.git"
+  },
+  "keywords": [
+    "slack"
+  ],
+  "author": "@r_karotou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kmd2kmd/slack-scheduling_messages/issues"
+  },
+  "homepage": "https://github.com/kmd2kmd/slack-scheduling_messages#readme",
+  "dependencies": {
+    "@slack/bolt": "1.2.0"
+  },
+  "devDependencies": {
+    "typescript": "3.6.2"
+  }
+}
